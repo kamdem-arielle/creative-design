@@ -18,10 +18,11 @@ html{
 }
 
 body{
-    overflow-x: hidden;
+    overflow: hidden;
    
 }
 .container{
+    overflow: hidden;
     width:100%;
 }
 
