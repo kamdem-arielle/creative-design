@@ -17,10 +17,13 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    /* overflow-x: hidden; */
-   
-}
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+  
 .container{
     overflow-x: hidden;
     width:100%;
@@ -429,7 +432,8 @@ max-height: 15rem;
 
 /* RESPONSIVE DESIGN */
 @media (max-width:991px) {
-    
+    .scroll-up-btn{bottom: 2rem; right: 2rem;
+    }
 .section-2,.section-3{
     height: auto;
 }
